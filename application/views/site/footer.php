@@ -41,9 +41,8 @@
 					</address>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-right">
-					<a href="#"><img src="<?php echo base_url(); ?>upload/icon/facebook.png" alt=""></a>
-					<a href="#"><img src="<?php echo base_url(); ?>upload/icon/twitter.png" alt=""></a>
-					<a href="#"><img src="<?php echo base_url(); ?>upload/icon/google.png" alt=""></a>
+					<a href="#"><img src="<?php echo base_url(); ?>upload/icon/fbook.png" alt=""></a>
+					<a href="#"><img src="<?php echo base_url(); ?>upload/icon/ins.png" alt=""></a>
 				</div>
 				<div class="clearfix"></div>
 			</div>
