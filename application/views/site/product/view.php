@@ -53,7 +53,7 @@
 
 		<div class="panel panel-info " style="margin-bottom: 15px">
 		  <div class="panel-heading">
-		    <h3 class="panel-title">Xem chi tiết sản phẩm</h3>
+		    <h3 class="panel-title">View detail items</h3>
 		  </div>
 		  <div class="panel-body">
 	  		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -97,7 +97,7 @@
                        <span class='raty_detailt' style = 'margin:5px' id='<?php echo $product->id; ?>' data-score='<?php echo round($raty_tb,2); ?>'></span> 
                        | Tổng số: <b  class='rate_count'><?php echo $product->rate_count; ?></b>
 				</p>
-		  		<a href="<?php echo base_url('cart/add/'.$product->id); ?>" class="btn btn-info"> Thêm vào giỏ hàng</a>
+		  		<a href="<?php echo base_url('cart/add/'.$product->id); ?>" class="btn btn-info"> Add to Cart</a>
 		  	</div>
 		  	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
 		  		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -117,7 +117,7 @@
 		</div>
 		<div class="panel panel-info">
 		  <div class="panel-heading">
-		    <h3 class="panel-title">Sản phẩm liên quan</h3>
+		    <h3 class="panel-title">Related products</h3>
 		  </div>
 		  <div class="panel-body">
 		  	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 clearpadding">
@@ -138,7 +138,7 @@
 								<p><span class='price text-right'><?php echo number_format($value->price); ?> VNĐ</span></p>
 			  				<?php	} ?>
 							<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true" title="Số lượt xem"></span> <?php echo $value->view; ?> <span class="glyphicon glyphicon-star-empty" aria-hidden="true" title="Số lượng đặt mua"><?php echo $value->buyed; ?></p>
-							<a href="<?php echo base_url('cart/add/'.$value->id); ?>"><button class='btn btn-info'><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Thêm giỏ hàng</button></a>
+							<a href="<?php echo base_url('cart/add/'.$value->id); ?>"><button class='btn btn-info'><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Add to Cart</button></a>
 			  			</div>
 					</div>
 				<?php } ?>	
@@ -148,7 +148,7 @@
 		</div>
 		<div class="panel panel-info">
 		  <div class="panel-heading">
-		    <h3 class="panel-title">Có thể bạn thích</h3>
+		    <h3 class="panel-title">Maybe you like</h3>
 		  </div>
 		  <div class="panel-body">
 		  	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 clearpadding">
@@ -169,7 +169,7 @@
 								<p><span class='price text-right'><?php echo number_format($value->price); ?> VNĐ</span></p>
 			  				<?php	} ?>
 							<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true" title="Số lượt xem"></span> <?php echo $value->view; ?> <span class="glyphicon glyphicon-star-empty" aria-hidden="true" title="Số lượng đặt mua"><?php echo $value->buyed; ?></p>
-							<a href="<?php echo base_url('cart/add/'.$value->id); ?>"><button class='btn btn-info'><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Thêm giỏ hàng</button></a>
+							<a href="<?php echo base_url('cart/add/'.$value->id); ?>"><button class='btn btn-info'><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Add to Cart</button></a>
 			  			</div>
 					</div>
 				<?php } ?>

@@ -1,7 +1,7 @@
 <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 clearpaddingr">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 clearpadding">
 		<ol class="breadcrumb">
-		  <li><a href="<?php echo base_url(); ?>"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Trang chủ</a></li>
+		  <li><a href="<?php echo base_url(); ?>"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> HOME</a></li>
 		  <li class="active"><?php echo $catalog_p->name; ?></li>
 		</ol>
 
@@ -36,7 +36,7 @@
 		  	</div>
 			 <?php echo $this->pagination->create_links(); ?>
 		  <?php }else{ ?>	
-		  	<p>Không có sản phẩm nào</p>	  	
+		  	<p>NO PRODUCTS</p>	  	
 		  <?php	} ?>
 		  	
 		  </div>

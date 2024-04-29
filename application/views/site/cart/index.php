@@ -45,7 +45,7 @@
 											<td><a style="font-weight: bold;color: red" href="<?php echo base_url('cart/del'); ?>">Delete All</a></td>
 										</tr>
 										<tr>
-											<td colspan="6"><a href="<?php echo base_url('order'); ?>" class="btn btn-success">Ordered</a></td>
+											<td colspan="6"><a href="<?php echo base_url('order'); ?>" class="btn btn-success">Order</a></td>
 										</tr>
 									</tbody>
 								</table>

@@ -8,10 +8,10 @@
          <table class="table table-hover">
           <thead>
           <tr>
-            <th>Ảnh</th>
-            <th>Tên <span></span></th>
-            <th>SL</th>
-            <th>Giá</th>
+            <th>Picture</th>
+            <th>Name <span></span></th>
+            <th>Quantity</th>
+            <th>Price</th>
           </tr>
         </thead>
            <tbody>
