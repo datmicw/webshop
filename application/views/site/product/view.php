@@ -102,15 +102,15 @@
 		  	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
 		  		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 		  			<img src="<?php echo base_url(); ?>upload/icon/services.png" alt="">
-		  			<p style="color:red">Phục vụ chu đáo</p>
+		  			<p style="color:red">Attentive service</p>
 		  		</div>
 		  		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 		  			<img src="<?php echo base_url(); ?>upload/icon/ship.png" alt="">
-		  			<p style="color:red">Trao hàng đúng hẹn</p>
+		  			<p style="color:red">Delivery on time</p>
 		  		</div>
 		  		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 		  			<img src="<?php echo base_url(); ?>upload/icon/services.png" alt="">
-		  			<p style="color:red">Đổi hàng trong 24h</p>
+		  			<p style="color:red">Exchange goods within 24 hours</p>
 		  		</div>
 		  	</div>
 		  </div>
