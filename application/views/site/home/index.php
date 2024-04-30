@@ -23,7 +23,8 @@
 		  				<?php	} ?>
 						<p><span class="glyphicon glyphicon-eye-open" aria-hidden="true" title="Số lượt xem"></span> <?php echo $value->view; ?> <span class="glyphicon glyphicon-star-empty" aria-hidden="true" title="Số lượng đặt mua"><?php echo $value->buyed; ?></p>
 						<a href="<?php echo base_url('cart/add/'.$value->id); ?>"><button class='btn btn-info'><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Add to Cart</button></a>
-		  			</div>
+		  			
+					</div>
 				</div>
 			<?php } ?>	
 	  	</div>

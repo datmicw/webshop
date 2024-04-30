@@ -32,7 +32,7 @@
 				    <div class="col-sm-5">
 				        <select class="form-control" name="parent_id">
 						  <option value='0' <?php if($catalog->parent_id == '0') echo 'selected'; ?>>Menu gốc</option>
-						  <option value='1' <?php if($catalog->parent_id == '1') echo 'selected'; ?>>Thời trang</option>
+						  <option value='1' <?php if($catalog->parent_id == '1') echo 'selected'; ?>>Watches</option>
 						  <?php foreach ($list as $value) { 
 						  	if ($value->parent_id>0) { ?>
 						  		<option value="<?php echo $value->id; ?>" <?php if($catalog->parent_id == $value->id) echo 'selected';?>>&nbsp;&nbsp;&nbsp;<?php echo $value->name; ?></option>

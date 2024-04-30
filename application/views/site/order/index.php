@@ -39,12 +39,6 @@
 					  		<td>Message</td>
 					  		<td><textarea name="message" id="" cols="50" rows="4"></textarea><?php echo form_error('message'); ?></td>
 					   	</tr>
-						<tr>
-					   		<td ></td>
-					  		<td >
-							  <button type="button" onclick="dieu_huong()">Điều hướng sang trang khác</button>
-					  		</td>
-					   	</tr>
 					   	<tr>
 					   		<td ></td>
 					  		<td >
@@ -59,9 +53,5 @@
 		</div>
 	</div>	
 	</div>
-	<script>
-        function dieu_huong(){
-            location.assign("/site/payment");
-        }
-    </script>
+	
 </div>
