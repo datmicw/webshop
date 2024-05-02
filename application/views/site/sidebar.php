@@ -73,7 +73,7 @@
 	</div>
 	<div class="panel panel-info" style="margin-top:10px;margin-bottom:10px;">
 	  <div class="panel-body" style="padding:0px;">
-	  	<img style="width: 100%" src="<?php echo base_url('upload/qc.gif'); ?>" alt="">
+	  	<img style="width: 100%" src="<?php echo base_url('upload/ad.jpg'); ?>" alt="">
 	  </div>
 	</div>
 </div>

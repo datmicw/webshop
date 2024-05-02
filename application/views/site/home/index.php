@@ -31,6 +31,7 @@
 	  </div>
 	</div>	
 </div>
+
 <div class="row">
 	<div class="panel panel-info">
 	  <div class="panel-heading">
