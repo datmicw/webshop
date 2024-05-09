@@ -1,5 +1,5 @@
 
-Link admin: /admin/login
+Link ADMIN: /admin/login
 
 email: dat.micf@gmail.com
 

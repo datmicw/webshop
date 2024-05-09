@@ -22,7 +22,7 @@
                 <h3 class="text-muted">VNPAY DEMO</h3>
             </div>
                 <div class="form-group">
-                    <button onclick="pay()">Giao dịch thanh toán</button><br>
+                    <button onclick="pay()">Giao dịch thanh toán ngay</button><br>
                 </div>
                 <div class="form-group">
                     <button onclick="querydr()">API truy vấn kết quả thanh toán</button><br>

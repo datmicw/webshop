@@ -154,7 +154,7 @@
 				<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 no-padding">
 				    <div class="footer-info">            
 				      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-				        <a href="" title=""><strong>About us</strong></a>
+				        <a href="" title=""><strong>About Us</strong></a>
 				          <li> <a href="http://localhost/webshop/information/" title="">Giới thiệu về shop</a></li>  
 				      </div>
 				      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">

@@ -27,8 +27,8 @@
                   ?>                   
             </tbody>                       
          </table> 
-           <a href="<?php echo base_url('cart'); ?>" type="button" class="btn btn-success"> Shopping Cart Details </a>
-           <a href="<?php echo base_url('cart/del'); ?>" type="button" class="btn btn-danger pull-right"> Delete </a>
+           <a href="<?php echo base_url('cart'); ?>" type="button" class="btn btn-success"> SHOPPING CART DETAILS </a>
+           <a href="<?php echo base_url('cart/del'); ?>" type="button" class="btn btn-danger pull-right"> DELETE </a>
       </div>
     <?php }else{ ?>
         <p style="color:red;font-weight: bold;float: right;padding-right: 30px">NO PRODUCTS IN THE CART</p>
