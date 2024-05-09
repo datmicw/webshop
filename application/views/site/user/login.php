@@ -2,8 +2,61 @@
 <html lang="en">
 <head>
 	<?php $this->load->view('site/head',$this->data); ?>
+	<style>/* Style the popup container */
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 1;
+}
+
+/* Style the popup content */
+.popup-content {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #999;
+  border-radius: 10px;
+  width: 50%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* Style the close button */
+.close-popup {
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.close-popup:hover {
+  background-color: #3e8e41;
+}
+
+.close-popup:hover +.popup-container {
+  display: none;
+}
+    </style>
 </head>
 <body>
+<!-- The popup container -->
+<div class="popup-container">
+  <!-- The popup content -->
+  <div class="popup-content">
+    <h2>Watches Shop</h2>
+    <p>This is a sample popup content.</p>
+    <button class="close-popup">Close</button>
+  </div>
+  <!-- The overlay (background) -->
+</div>
+
+<!-- The trigger button -->
 	<div class="container">
 		<?php $this->load->view('site/header',$this->data); ?>
 
@@ -54,8 +107,20 @@
 					</div>
 			</div>
 		</div>
+		
 		<?php $this->load->view('site/footer',$this->data); ?>
 	</div>
     <script src="<?php echo public_url('site/'); ?>bootstrap/js/bootstrap.min.js"></script>
+<script>
+	// Add event listener to the close button
+	document.querySelector('.close-popup').addEventListener('click', function() {
+  	document.querySelector('.popup-container').style.display = 'none';
+	});
+
+// Show the popup when the page loads
+	window.onload = function() {
+ 	 document.querySelector('.popup-container').style.display = 'block';
+	};
+</script>
 </body>
 </html>

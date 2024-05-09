@@ -1,6 +1,12 @@
 
 Link admin: /admin/login
 
-email: admin@gmail.com
+email: dat.micf@gmail.com
 
-pass: 1234
+pass: dat18cm
+
+LOGIN USER
+
+email: dat@g.com
+
+pass: 123

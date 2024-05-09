@@ -1,6 +1,6 @@
 <div class="row" style="margin-top: 3px;height: 23px">
 			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 clearpadding">
-				<a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>upload/STARBUCKS_LOGO.png" alt="" class="img-responsive"></a>
+				<a href="http://localhost/webshop/dang-nhap" target="_blank"><img src="<?php echo base_url(); ?>upload/STARBUCKS_LOGO.png" alt="" class="img-responsive"></a>
 			</div>
 		</div>
 		<div class="row">
@@ -14,7 +14,7 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			      </button>
-			      	<a class="navbar-brand" href="#">--- Menu ---</a>
+			      	<a class="navbar-brand" href="#"></a>
 			    </div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse re-navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -31,7 +31,7 @@
 			           		$name = covert_vi_to_en($value->name);
 	  						$name = strtolower($name);
 			            ?>
-			          	<li><a style="color: #337ab7;padding: 10px 20px;" href="<?php echo base_url($name.'-c'.$value->id); ?>"><?php echo $value->name; ?></a></li>
+			          	<li><a style="color:#00000;padding: 10px 20px; font-weight: 700;text-transform: uppercase; border-radius: 10px" href="<?php echo base_url($name.'-c'.$value->id); ?>"><?php echo $value->name; ?></a></li>
 			          <?php } ?>
 			          </ul>
 			        </li>

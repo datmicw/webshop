@@ -7,7 +7,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="<?php echo admin_url('admin/edit/'.$login->id); ?>">HELLO: <?php echo $login->name; ?></a>
+			<a class="navbar-brand" href="<?php echo admin_url('admin/edit/'.$login->id); ?>"> <?php echo $login->name; ?></a>
 			<a class="navbar-brand pull-right" id="logout" href="<?php echo admin_url('admin/logout'); ?>">LOGOUT</a>
 		</div>
 						

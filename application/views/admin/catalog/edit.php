@@ -54,7 +54,7 @@
 				  </div>
 				  <div class="form-group">
 				    <div class="col-sm-offset-2 col-sm-5">
-				      <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+				      <button type="submit" class="btn btn-primary">Change</button>
 				    </div>
 				  </div>
 				</form>

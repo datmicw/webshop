@@ -14,7 +14,7 @@
 		  </div>
 		  <div class="panel-body">
 		  	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 clearpadding">
-		  		<h3>Total : <?php echo number_format($total_amount); ?> VNĐ</h3>
+		  		<h3>TOTAL : <?php echo number_format($total_amount); ?> VNĐ</h3>
 		  		<form enctype="multipart/form-data" method="post" >
 			  		<table class="table">
 					  <tbody>
@@ -37,10 +37,22 @@
 					  	</tr>
 					  	<tr>
 					  		<td>Message</td>
-					  		<td><textarea name="message" id="" cols="50" rows="4"></textarea><?php echo form_error('message'); ?></td>
+					  		<td><textarea name="message" id="" cols="60" rows="4"></textarea><?php echo form_error('message'); ?></td>
+							 
+					   	</tr>
+						   <tr>
+					  		<td>Mã GD VNPAY</td>
+					  		<td><input name="MAGD" type="number"></td>
+							 
 					   	</tr>
 					   	<tr>
 					   		<td ></td>
+							   <td>
+								<!-- Tích hợp hệ thống thanh toán của VNPAY vào web  -->
+							   <a style="color: brown; font-weight:bold;font-size:30px;" href="http://localhost/webshop/vnpay_php" target="_blank">PAYMENT WITH VNPAY</a>
+							 </td>
+							 </tr>
+							 <tr>
 					  		<td >
 					  			<input type="submit" class="btn btn-success"></input>
 					  		</td>
