@@ -5,6 +5,14 @@ class Home extends MY_Controller {
 
 	public function index()
 	{
+		$this->load->model('noti_model');
+		$input = array();
+		$input['noti'] = array('sort', 'DESC');
+		$noti = $this->noti_model->get_list($input);
+		$this->data['noti']=$noti;
+
+
+		
 		$this->load->model('slider_model');
 		$input = array();
 		$input['order'] = array('sort_order', 'DESC');

@@ -1,3 +1,9 @@
+<?php
+include 'application/views/site/home/popup.php';
+?>
+
+
+
 <div class="row">
 	<div class="panel panel-info">
 	  <div class="panel-heading">
